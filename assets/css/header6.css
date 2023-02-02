@@ -1,0 +1,104 @@
+::selection {
+    background-color: #ffc024;
+    color: black;
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  .carousel-caption-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+  }
+  .nudge-down {
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+    transform: translateY(216px);
+    width: 75%;
+    display: block;
+  }
+  .jumbo-pic-xs {
+    transform: translateY(24px);
+    margin-top: -45px;
+  }
+  .carousel-header {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Caveat', cursive;
+    text-shadow: 4px 4px 7px rgb(0 0 0 / 35%);
+  }
+  .carousel-title {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+  
+  }
+  @media (max-width: 1399px) { /*xxl*/
+    .nudge-down {
+      transform: translateY(209px);
+    }
+  }
+  @media (max-width: 1199px) { /*xl*/
+    .nudge-down {
+      transform: translateY(213px);
+    }
+  }
+  @media (max-width: 991px) { /*l*/
+    .nudge-down {
+      transform: translateY(38px);
+      width: 50%;
+      right: 50px;
+    }
+  }
+  @media (max-width: 767px) { /*md*/
+    .nudge-down {
+      transform: translateY(40px);
+      width: 70%;
+      right: -29px;
+    }
+  }
+  @media (max-width: 575px) { /*sm*/
+    .nudge-down {
+      display: none;
+    }
+    .carousel-header {
+      font-size: 3em;
+    }
+  }
+  
+  
+  
+  @media (min-width: 360px) {
+    .jumbo-pic-xs {
+      transform: translateY(27px);
+    }
+  }
+  @media (min-width: 390px) {
+    .jumbo-pic-xs {
+      transform: translateY(29px);
+    }
+  }
+  @media (min-width: 411px) {
+    .jumbo-pic-xs {
+      transform: translateY(31px);
+    }
+  }
+  @media (min-width: 428px) {
+    .jumbo-pic-xs {
+      transform: translateY(33px);
+    }
+  }
+  @media (min-width: 480px) {
+    .jumbo-pic-xs {
+      transform: translateY(36px);
+      margin-top: -45px;
+    }
+  }
+  @media (min-width: 535px) {
+    .jumbo-pic-xs {
+      transform: translateY(40px);
+      margin-top: -45px;
+    }
+  }
