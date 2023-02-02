@@ -61,7 +61,7 @@
   
   /* menu icon */
   
-  .menu {
+    .menu {
     margin-left: 15px;
   }
   
@@ -99,7 +99,7 @@
   
   #header .menu-icon .nav-icon:after {
     top: -6px;
-  }
+  }       
   
   /* menu btn */
   
